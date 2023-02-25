@@ -1,0 +1,37 @@
+<button 
+	id="connect-wallet-button" 
+	style="
+		background-color: {{block.settings.button_color}};
+		color: {{block.settings.button_text_color}};
+		border: 1px {{block.settings.button_text_color}} solid;
+	"
+>
+	{{block.settings.button_label}}
+</button>
+
+{% schema %}
+{
+	"name": "Connect Wallet",
+	"target": "section",
+	"settings":[
+		{
+			"type": "text",
+			"id": "button_label",
+			"label": "Button Label",
+			"default": "Connect Wallet"
+		},
+		{
+			"type": "color",
+			"id": "button_color",
+			"label": "Button Color",
+			"default": "#000000"
+		},
+		{
+			"type": "color",
+			"id": "button_text_color",
+			"label": "Button Text Color",
+			"default": "#FFFFFF"
+		}
+	]
+}
+{% endschema %}
