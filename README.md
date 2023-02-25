@@ -11,7 +11,7 @@ This app integrated Web 3 wallet connectivity into liquid app blocks. These are 
 
 A Bundler (Webpack) is required to bundle the JavaScript and CSS into a singular file. This bundled file is referenced in the 'connect-wallet-block.liquid' file as containing the logic.
 
-Once created, a preview of the extension can viewed via the CLI 3.0 command ```shopify theme dev```
+Once created, a preview of the extension can viewed via ```npm run dev``` and proceeding to enable, setup and preview your theme app extension!
 
 ## Benefits
 
