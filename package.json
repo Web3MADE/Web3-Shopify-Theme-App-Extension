@@ -9,7 +9,8 @@
     "dev": "shopify app dev",
     "info": "shopify app info",
     "generate": "shopify app generate",
-    "deploy": "shopify app deploy"
+    "deploy": "shopify app deploy",
+    "webpack-bundle": "webpack --mode development"
   },
   "dependencies": {
     "@coinbase/wallet-sdk": "^3.6.4",
@@ -19,5 +20,8 @@
     "@walletconnect/web3-provider": "^1.8.0",
     "web3modal": "^1.9.12"
   },
-  "author": "mwo24"
+  "author": "mwo24",
+  "devDependencies": {
+    "webpack": "4.44.0"
+  }
 }
