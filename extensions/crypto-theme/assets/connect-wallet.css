@@ -1,0 +1,10 @@
+#connect-wallet-button {
+  padding: 0.6em 2em;
+  border-radius: 2rem;
+  color: #fff;
+  background-color: #1976d2;
+  font-size: 1.5rem;
+  border: 0;
+  cursor: pointer;
+  margin: 1em;
+}
