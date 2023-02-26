@@ -6,7 +6,10 @@ Rather than cloning this repo, you can use your preferred package manager and th
 
 ## Web 3 Integration
 
-To follow along with the video tutorial, select the ***start*** branch from the menu. This will give you the starting template without the extension.
+To follow along with the video tutorial, select the ***start*** branch from the branches menu. This will give you the starting template without the extension: 
+
+![Screenshot 2023-02-26 at 13 59 44](https://user-images.githubusercontent.com/115392932/221415057-d3cec09d-06b5-4fcc-9dcb-6660ef179960.png)
+
 
 This app integrated Web 3 wallet connectivity into liquid app blocks. These are pieces of code that exist in the browser, instead of the server in a normal Shopofy embedded app. 
 
