@@ -4,6 +4,14 @@ This is a template for building a [Shopify app](https://shopify.dev/apps/getting
 
 Rather than cloning this repo, you can use your preferred package manager and the Shopify CLI with [these steps](#installing-the-template).
 
+## Web 3 Integration
+
+This app integrated Web 3 wallet connectivity into liquid app blocks. These are pieces of code that exist in the browser, instead of the server in a normal Shopofy embedded app. 
+
+A Bundler (Webpack) is required to bundle the JavaScript and CSS into a singular file. This bundled file is referenced in the 'connect-wallet-block.liquid' file as containing the logic.
+
+Once created, a preview of the extension can viewed via ```npm run dev``` and proceeding to enable, setup and preview your theme app extension!
+
 ## Benefits
 
 Shopify apps are built on a variety of Shopify tools to create a great merchant experience. The [create an app](https://shopify.dev/apps/getting-started/create) tutorial in our developer documentation will guide you through creating a Shopify app using this template.
