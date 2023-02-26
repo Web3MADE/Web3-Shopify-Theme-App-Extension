@@ -5,7 +5,7 @@ import CoinbaseWalletSDK from "@coinbase/wallet-sdk";
 
 let provider;
 const CONNECTED = "Connected";
-const button = document.getElementById("connect-wallet");
+const button = document.getElementById("connect-wallet-button");
 button.addEventListener("click", connectWallet);
 async function getWeb3Modal() {
   const web3Modal = new Web3Modal({
