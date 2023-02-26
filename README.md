@@ -6,6 +6,8 @@ Rather than cloning this repo, you can use your preferred package manager and th
 
 ## Web 3 Integration
 
+To follow along with the video tutorial, select the ***start*** branch from the menu. This will give you the starting template without the extension.
+
 This app integrated Web 3 wallet connectivity into liquid app blocks. These are pieces of code that exist in the browser, instead of the server in a normal Shopofy embedded app. 
 
 A Bundler (Webpack) is required to bundle the JavaScript and CSS into a singular file. This bundled file is referenced in the 'connect-wallet-block.liquid' file as containing the logic.
